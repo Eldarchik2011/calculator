@@ -28,7 +28,9 @@ let bplus = Number(b.value)
 })
 
 
-delbtn.addEventListener('click', ()=> {
-    a.value == 0;
-})
+delbtn.onclick = function(e) {
+    a.value = "";
+    b.value = "";
+    res.textContent = 'RESULT -'
+}
 
